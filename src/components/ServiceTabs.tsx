@@ -144,7 +144,7 @@ export function ServiceTabs() {
             {allServices[activeTab].map(service => <motion.div key={service.id} whileHover={{
             scale: 1.03
           }} className="bg-white rounded-lg overflow-hidden shadow-lg">
-                <div className="h-48 overflow-hidden relative">
+                <div className="h-72 overflow-hidden relative">
                   {service.isLogo ? <div className="w-full h-full flex items-center justify-center bg-black">
                       <img src={service.image} alt={service.title} className="w-32 h-32 object-contain" onClick={() => {
                   setSelectedImage(service.image);
