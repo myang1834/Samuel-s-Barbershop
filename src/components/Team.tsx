@@ -39,28 +39,28 @@ export function Team() {
     name: 'Samuel Moura',
     role: 'Master Barber & Owner',
     bio: 'With over 20 years of experience, Samuel specializes in classic cuts and hot towel shaves.',
-    image: 'https://images.unsplash.com/photo-1582893561942-d61adcb2e534?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    image: '/Samuel.JPG',
     socials: {
       instagram: 'https://www.instagram.com/samuelsbarbers_07/',
-      facebook: '#'
+      facebook: 'https://www.facebook.com/p/Samuelsbarbers-61571978196335/'
     }
   }, {
-    name: 'James Wilson',
+    name: 'Natan',
     role: 'Senior Barber',
     bio: "James is known for his precision fades and creative designs. He's been with us for 7 years.",
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    image: '/IMG_6054.JPG',
     socials: {
       instagram: 'https://www.instagram.com/samuelsbarbers_07/',
-      facebook: '#'
+      facebook: 'https://www.facebook.com/p/Samuelsbarbers-61571978196335/'
     }
   }, {
-    name: 'Marcus Thompson',
+    name: 'Santiago',
     role: 'Barber',
     bio: 'Marcus specializes in modern styles and beard grooming. His attention to detail is unmatched.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    image: '/IMG_6048.JPG',
     socials: {
       instagram: 'https://www.instagram.com/samuelsbarbers_07/',
-      facebook: '#'
+      facebook: 'https://www.facebook.com/p/Samuelsbarbers-61571978196335/'
     }
   }];
   return <section id="team" className="py-20 bg-gray-100">

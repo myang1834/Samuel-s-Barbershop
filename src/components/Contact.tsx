@@ -46,10 +46,10 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold mb-1 text-[#1E1E1E]">Hours</h4>
-                    <p className="text-gray-600">
-                      Monday - Wednesday: 8:30am - 9pm
-                    </p>
-                    <p className="text-gray-600">Thursday: 8:30am - 9pm</p>
+                    <p className="text-gray-600">Monday: 12pm - 7pm</p>
+                    <p className="text-gray-600">Tuesday: 8:30am - 7pm</p>
+                    <p className="text-gray-600">Wednesday: 8:30am - 7pm</p>
+                    <p className="text-gray-600">Thursday: 8:30am - 7pm</p>
                     <p className="text-gray-600">Friday: 8am - 7pm</p>
                     <p className="text-gray-600">Saturday: 8am - 5pm</p>
                     <p className="text-gray-600">Sunday: Closed</p>

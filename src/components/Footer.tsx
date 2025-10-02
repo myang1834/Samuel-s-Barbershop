@@ -15,7 +15,7 @@ export function Footer() {
               since 2010.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-[#B8860B] transition-colors duration-300" aria-label="Follow Samuel's Barbershop on Facebook">
+              <a href="https://www.facebook.com/p/Samuelsbarbers-61571978196335/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#B8860B] transition-colors duration-300" aria-label="Follow Samuel's Barbershop on Facebook">
                 <Facebook size={20} />
               </a>
               <a href="https://www.instagram.com/samuelsbarbers_07/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#B8860B] transition-colors duration-300" aria-label="Follow Samuel's Barbershop on Instagram">
@@ -40,12 +40,20 @@ export function Footer() {
             <h3 className="text-xl font-bold mb-4">Hours</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex justify-between">
-                <span>Monday - Wednesday</span>
-                <span>8:30am - 9pm</span>
+                <span>Monday</span>
+                <span>12pm - 7pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Tuesday</span>
+                <span>8:30am - 7pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Wednesday</span>
+                <span>8:30am - 7pm</span>
               </li>
               <li className="flex justify-between">
                 <span>Thursday</span>
-                <span>8:30am - 9pm</span>
+                <span>8:30am - 7pm</span>
               </li>
               <li className="flex justify-between">
                 <span>Friday</span>
@@ -68,7 +76,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
+      <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
           <p>&copy; {currentYear} Samuel's Barbershop. All rights reserved.</p>
           <p className="mt-2">
             <a href="tel:8572366226" className="hover:text-[#B8860B] transition-colors duration-300">
@@ -76,7 +84,7 @@ export function Footer() {
             </a>{' '}
             | 4a Trapelo Rd, Belmont, MA 02478
           </p>
-          <p className="mt-2">
+        <p className="mt-2">
             <Link to="/privacy-policy" className="text-gray-300 hover:text-[#B8860B] transition-colors duration-300">
               Privacy Policy
             </Link>{' '}
@@ -85,6 +93,12 @@ export function Footer() {
               Terms of Use
             </Link>
           </p>
+        <div className="mt-8">
+          <p className="text-lg font-semibold">Made by Pagoda</p>
+          <a href="https://www.getpagoda.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#B8860B] transition-colors duration-300">
+            www.getpagoda.com
+          </a>
+        </div>
         </div>
       </div>
     </footer>;

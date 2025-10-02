@@ -61,8 +61,7 @@ export function ServiceTabs() {
       description: 'Quick service to clean up your hairline and maintain your style between cuts.',
       price: '$20.00',
       duration: '10 min',
-      image: "/logo-samuel-barbers.webp",
-      isLogo: true
+      image: "/lineup.png"
     }],
     additional: [{
       id: 'haircut-beard',
@@ -77,16 +76,14 @@ export function ServiceTabs() {
       description: 'Professional beard trimming and shaping to keep your facial hair looking its best.',
       price: '$40.00',
       duration: '30 min',
-      image: "/logo-samuel-barbers.webp",
-      isLogo: true
+      image: "/beardtrim.png"
     }, {
       id: 'shave',
       title: 'Shave',
       description: 'Traditional straight razor shave with hot towels and premium shaving products.',
       price: '$40.00',
       duration: '30 min',
-      image: "/logo-samuel-barbers.webp",
-      isLogo: true
+      image: "/shave.png"
     }, {
       id: 'eyebrow',
       title: 'Eyebrow',
