@@ -38,7 +38,7 @@ export function Team() {
   const barbers = [{
     name: 'Samuel Moura',
     role: 'Master Barber & Owner',
-    bio: 'With over 20 years of experience, Samuel specializes in classic cuts and hot towel shaves.',
+    bio: 'Dedicated to providing clean, precise cuts and a great experience every time.',
     image: '/Samuel.JPG',
     socials: {
       instagram: 'https://www.instagram.com/samuelsbarbers_07/',
@@ -46,8 +46,8 @@ export function Team() {
     }
   }, {
     name: 'Natan',
-    role: 'Senior Barber',
-    bio: "James is known for his precision fades and creative designs. He's been with us for 7 years.",
+    role: 'Barber',
+    bio: 'Passionate about helping clients look and feel their best with every visit.',
     image: '/IMG_6054.JPG',
     socials: {
       instagram: 'https://www.instagram.com/samuelsbarbers_07/',
@@ -56,7 +56,7 @@ export function Team() {
   }, {
     name: 'Santiago',
     role: 'Barber',
-    bio: 'Marcus specializes in modern styles and beard grooming. His attention to detail is unmatched.',
+    bio: 'Specializes in modern fades, classic cuts, and detailed grooming tailored to each client.',
     image: '/IMG_6048.JPG',
     socials: {
       instagram: 'https://www.instagram.com/samuelsbarbers_07/',
