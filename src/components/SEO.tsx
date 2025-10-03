@@ -10,7 +10,7 @@ export function SEO({
   title = "Samuel's Barbershop | Professional Haircuts & Styling in Belmont, MA",
   description = "Samuel's Barbershop in Belmont, MA offers professional haircuts, hot towel shaves, and beard trims. Serving Belmont, Arlington and nearby areas. Kid-friendly barbershop with personalized service. Open 6 days a week. Call (857) 236-6226 to book your appointment today.",
   canonicalUrl = 'https://samuelsbarbershop.com',
-  ogImage = 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
+  ogImage = '/social-share.png'
 }: SEOProps) {
   return <Helmet>
       {/* Primary Meta Tags */}
@@ -25,7 +25,10 @@ export function SEO({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       {/* Favicon */}
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+      <meta name="theme-color" content="#1E1E1E" />
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
       {/* Open Graph / Facebook */}
